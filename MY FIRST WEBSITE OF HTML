@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My First Website</title>
+		<style>
+		
+		/* HEADING */
+		h1{
+		    color : black;
+		    font-family : Typewriter;
+		    font-size : 40px;
+		    text-align : center;
+		}
+		h2 {
+		    font-size:20px;
+		    color:bluelight;
+		}
+		
+		/* PARAGRAPH */
+		p {
+		   color: Gray;
+		   font-size: 15px;
+		   line-height: 1.6px;
+		}
+		
+		/* LINKS */
+		a{
+		    color : blue;
+		    text-decoration: none;
+		}
+		
+		/* images */
+		img {
+		    width: 300px;
+		    border-radius: 12px;
+		}
+		/* LISTS */
+		ul{
+		    list-style:none;
+		}
+		li{
+		    padding:8px;
+		    color: Black;
+		}
+		/* BUTTON */
+		button {
+		    background-color: red;
+		    color: bluedark;
+		    padding:10px 20px;
+		    border: none;
+		    border-radius: 8px;
+		}
+		/* INPUT */
+		input {
+		    border:2px solid darkred;
+		    padding: 10px;
+		    border-radius: 6px;
+		    width:80%;
+		   border-color: blue;
+		}
+		input focus{border-color: blue; blue;} /* when click it*/
+		</style>
+	</head>
+	<body>
+	
+	<h1>WELCOME TO MY WEBSITE</h1>
+	<p>This page was made me by using HTML and CSS</p>
+	
+	<h2>My Favorite</h2>
+	<ol>
+	 <li>naranja</li>
+	 <li>Verded Mazana</li>
+	 <li>Ella</li>
+	</ol>
+   <h2>MY Daily Routine</h2>
+    <ul>
+     <li>Wake Up</li>
+     <li>Thinking About Her</li>
+     <li>Going Work To See HER</li>
+     <li>Learrn HTML</li>
+    </ul>
+   <h2>Mi Amigo</h2>
+    <table>
+     <tr>
+      <th>Nombre</th>
+      <th>Año</th>
+      <th>El Hobby</th>
+     </tr>
+     <tr>
+      <td>Tomas</td>
+      <td>20</td>
+      <td>El Jugarda</td>
+     </tr>
+     <tr>
+      <td>Thiago Andrès</td>
+      <td>17</td>
+      <td>Tech</td>
+     </tr>
+    </table>
+    
+    <h2>Mi Favarito Website</h2>
+     <p>Click Below to visit</p>
+      <a href="https://instagram.com" target="_blank">INSTAGRAM</a>
+      
+    <h2>Mi Favarito de foto</h2>
+     <a href="https://instagram.com" target="_blank">
+      <img src="https://focus.com/300x100px;" alt="FOCUS Photo">
+     </a>
+     
+     <h2>Contact ME</h2>
+     	<form>
+     	  <label>Phone Number</label><br>
+     	    <input type="number" placeholder="Enter your phone number">
+     	     <br><br>
+     	    
+     	   <label>Password</label><br>
+     	     <input type="password" placeholder="Enter your password">
+     	      <br><br>
+     	      
+     	    <h2>Gender</h2>
+     	      <input type="radio" name="gender">Male
+     	       <input type="radio" name="gender">Famale
+     	        <br><br>
+     	       
+     	       <input type="Checkbox"> I agree to terms
+     	       <br><br>
+     	       </form>
+     	       <button>Sumit</button>
+	</body>
+</html>
